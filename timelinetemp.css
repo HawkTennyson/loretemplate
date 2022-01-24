@@ -1,0 +1,107 @@
+.back_timei {
+  width: 600px;
+  min-height: 500px;
+  position: relative;
+  margin: auto;
+  background-color: #efefef;
+  line-height: 130%;
+  font-family: "Gayathri", sans-serif;
+}
+
+.titles_noctua {
+  height: 85px;
+  position: relative;
+  padding: 10px 10px 0px 10px;
+  background-color: var(--tcbottom);
+  color: #ffffff;
+}
+
+.titles_noctua h2 {
+  width: calc(100% - 40px);
+  position: absolute;
+  bottom: 5px;
+  font-size: 40px;
+  padding: 0px 10px;
+  margin: 0px;
+  border-bottom: 2px solid var(--tcborder);
+}
+
+.titles_noctua .imgNoc {
+  width: 65px;
+  height: 65px;
+  border: var(--tcborder) 3px solid;
+  background-image: var(--imgTop);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.new_cardi {
+  width: 600px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.back_tittles {
+  width: 40%;
+  padding-left: 10px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.back_tittles .titleNoc {
+  height: 13px;
+  font-size: 20px;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: var(--tctittle);
+}
+
+.back_tittles .buttonNoc {
+  width: 10px;
+  height: 10px;
+  border: 3px solid var(--tccircle);
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  left: 9px;
+}
+
+.back_infos {
+  width: 60%;
+  height: 150px;
+  padding: 0px 20px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: scroll;
+  color: #5a5a5a;
+  border-left: solid #dddddd 2px;
+}
+
+.back_timei ::-webkit-scrollbar {
+  display: none;
+}
+
+.credito-mmo {
+  width: 13px;
+  height: 13px;
+  position: relative;
+  float: right;
+  right: 5px;
+  top: 5px;
+  background-image: url(https://files.jcink.net/uploads2/planetarium/Images/capricorn.png);
+  background-position: center;
+  background-size: cover;
+  filter: invert(31%) sepia(8%) saturate(6739%) hue-rotate(321deg)
+    brightness(101%) contrast(107%);
+}

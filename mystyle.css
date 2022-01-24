@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css?family=Caveat|Open+Sans&display=swap');
+
+  .chocolate {width: 540px; height: 540px; border: 1px solid #D3D3D3; position: relative; font: 11px/1.3em  'Open Sans', sans-serif; background-image: url(https://i.imgur.com/GeAshc6.png)}
+
+  .chocolatep {width: 200px; height: 500px; border: 1px solid #D3D3D3; position: absolute; margin: 20px 0px 0px 20px} 
+  .chocolatep img {width: 200px; height: 500px; object-fit: cover; object-position: center;}
+  .chocolatet {width: 280px; height: 75px; position: absolute; margin: 20px 0px 0px 230px; display: flex; align-items: center; justify-content: center; text-align: center; font: 52px/1em 'Caveat', cursive; text-shadow: 1px 1px #696969;}
+  .chocolatetabbox {width: 280px; height: 411px; position: absolute; margin: 110px 0px 0px 235px; border: 1px solid #D3D3D3}
+  .chocolate-tabs {
+  position: relative;   
+  min-height: 405px; /* This part sucks */
+  clear: both;
+  margin: 0;
+}
+.chocolate-tab {
+  float: left;
+}
+.chocolate-tab label {
+  background: #eee;
+  display: flex; height: 30px; width: 93px; align-items: center; justify-content: center; text-align: center; font: 19px/1em 'Caveat', cursive;
+  position: relative;
+}
+.chocolate-tab [type=radio] {
+  display: none;   
+}
+.chocolate-content {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 15px;
+  overflow: auto;
+  text-align: justify;
+  height: 351px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.chocolate-tab [type=radio]:checked ~ label {
+  background: white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .chocolate-content {
+  z-index: 1;
+}
+hr {
+  border-top: 1px solid ;
+}
